@@ -80,12 +80,10 @@ export default function About() {
       <Row fillWidth s={{ direction: "column"}} horizontal="center">
         {about.avatar.display && (
           <Column
-            className={styles.avatar}
+            className={`${styles.avatar} ${styles.avatarStickyReset}`}
             top="64"
             fitHeight
             position="sticky"
-            s={{ position: "relative", style: { top: "auto" } }}
-            xs={{ style: { top: "auto" } }}
             minWidth="160"
             paddingX="l"
             paddingBottom="xl"

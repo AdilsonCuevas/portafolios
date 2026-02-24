@@ -9,6 +9,11 @@
 }
 
 @media (max-width: breakpoints.$s) {
+    .avatarStickyReset {
+        position: relative;
+        top: auto;
+    }
+
     .textAlign {
         text-align: center;
     }
